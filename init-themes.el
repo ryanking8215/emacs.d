@@ -71,5 +71,12 @@ ignored: use `custom-enabled-themes' instead."
   (interactive)
   (color-theme-sanityinc-solarized-dark))
 
+;; 设置英文字体
+(set-face-attribute 'default nil :font "Ubuntu Mono 12")
+;; 设置中文字体
+(dolist (charset '(kana han symbol cjk-misc bopomofo))
+  (set-fontset-font (frame-parameter nil 'font)
+                    charset
+                    (font-spec :family "WenQuanYi Micro Hei Mono" :size 14))) 
 
 (provide 'init-themes)

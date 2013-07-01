@@ -13,5 +13,11 @@
 
 (setq-default regex-tool-backend 'perl)
 
+(setq display-time-24hr-format t)
+(setq display-time-day-and-date t)
+(display-time-mode t);显示时间
+(setq x-select-enable-clipboard t);支持emacs和外部程序的粘贴
+(setq default-fill-column 80);默认显示 80列就换行
+(global-linum-mode t)
 
 (provide 'init-misc)
