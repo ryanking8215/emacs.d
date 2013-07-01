@@ -23,5 +23,3 @@ site-lisp/package/
 /.mc-lists.el
 /var
 /.sqli_history
-/init-cc.el
-/init-cedet.el
