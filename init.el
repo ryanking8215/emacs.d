@@ -80,6 +80,7 @@
 ;;; add by ryanking
 (require 'init-cc)
 (require 'init-cedet)
+(require 'init-yasnippet)
 
 (require 'init-paredit)
 (require 'init-lisp)
