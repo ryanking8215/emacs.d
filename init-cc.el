@@ -23,7 +23,6 @@
   (setq ac-sources
         '(ac-source-semantic
           ac-source-yasnippet
-          ac-source-c-keywords
           ac-source-abbrev
           ac-source-words-in-buffer
           ac-source-words-in-all-buffer
